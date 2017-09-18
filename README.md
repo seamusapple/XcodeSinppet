@@ -5,4 +5,4 @@
 
 > cd XcodeSinppet
 
-> ./setup_snippets.sh
+> ./setup_snippets.sh (chmod a+x ./setup_snippets.sh)
