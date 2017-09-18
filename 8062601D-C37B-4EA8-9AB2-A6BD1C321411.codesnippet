@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>controllerArc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - Life Cycle
+override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    setNavigationBar()
+    addPageViews()
+    layoutPageViews()
+    setPageViews()
+}
+
+override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+}
+
+// MARK: - Init Methods
+
+// MARK: - Controller Settings
+private func setNavigationBar() {
+    
+}
+
+private func addPageViews() {
+    
+}
+
+private func layoutPageViews() {
+    
+}
+
+private func setPageViews() {
+    
+}
+
+// MARK: - Event Responses
+
+// MARK: - Private Methods
+
+// MARK: - Controller Attributes
+fileprivate var _&lt;#name#&gt;: &lt;#type#&gt;?
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8062601D-C37B-4EA8-9AB2-A6BD1C321411</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Controller Architecture</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

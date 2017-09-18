@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>debugLog</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>func DebugLog&lt;T&gt;(messsage : T, file : String = #file, funcName : String = #function, lineNum : Int = #line) {
+    #if DEBUG
+        let fileName = (file as NSString).lastPathComponent
+        print("\(fileName):(\(lineNum))-\(messsage)")
+    #endif
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>23BC50DC-5495-4B7D-8A29-33D077F13FE3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>放在AppDelegate的@UIApplicationMain的上方</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>DebugLog</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>extensionAGS</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - Getters and Setters
+extension &lt;#name#&gt; {
+    fileprivate var &lt;#name#&gt;: &lt;#type#&gt; {
+        if _&lt;#name#&gt; == nil {
+            _&lt;#name#&gt; = &lt;#type#&gt;()
+
+            return _&lt;#name#&gt;!
+        }
+        
+        return _&lt;#name#&gt;!
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>523D5407-8FD7-4D24-83BE-A09EF82503AC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Attributes Getter and Setter Extension</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

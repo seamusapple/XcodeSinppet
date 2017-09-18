@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>extensionProperty</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>var &lt;#property#&gt; : &lt;#class#&gt;? {
+            get {
+                return objc_getAssociatedObject(self, &amp;AssociatedKeys.&lt;#property#&gt;) as? &lt;#class#&gt;
+            }
+            
+            set {
+                objc_setAssociatedObject(self, &amp;AssociatedKeys.&lt;#property#&gt;, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            }
+        }
+        
+        private struct AssociatedKeys {
+            static var &lt;#property#&gt; = "&lt;#property#&gt;"
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>57F55EB1-5ABB-41C0-8FE6-E8193B2CE545</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Define a property to class extension.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift Extension Property</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
